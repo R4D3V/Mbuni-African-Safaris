@@ -166,7 +166,16 @@ export function Footer() {
           © {new Date().getFullYear()} Mbuni African Safaris. All rights
           reserved.
         </p>
-        <p className="text-xs text-gray-400">Kampala, Uganda 🇺🇬</p>
+        <a
+          href="http://raymonjohns.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p className="text-xs text-gray-400">
+            Built with ❤️ by{" "}
+            <span style={{ color: "var(--color-brand)" }}>RaymonJohns</span>
+          </p>
+        </a>
       </div>
     </footer>
   );
